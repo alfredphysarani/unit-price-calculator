@@ -1,4 +1,4 @@
-const unitCalculator = (price, qty) => qty === 0 ? 'Qunatity cannot be zero!' : Math.round(price/qty*100)/100;
+const unitCalculator = (price, qty) => qty === 0 || qty === '' ? 'Qunatity cannot be zero!' : Math.round(price/qty*100)/100;
 
 document.addEventListener('DOMContentLoaded', () => {
     const calcBtn = document.getElementById('calculate-button');
