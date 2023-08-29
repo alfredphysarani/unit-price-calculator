@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const result = unitCalculator(inputPrice, inputQty);
         result === 'Qunatity cannot be zero!' ? document.getElementById('result-container').innerHTML = result :
-        document.getElementById('result-container').innerHTML = `The unit price: ${result} $/${inputUnit}`;
+        document.getElementById('result-container').innerHTML = `The unit price: $ ${result} per ${inputUnit}`;
     })
 })
