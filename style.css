@@ -1,0 +1,10 @@
+body {
+    background-color: #252B48;
+    color: white;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input, label {
+    display: inline-block;
+}
